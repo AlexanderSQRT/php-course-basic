@@ -1,0 +1,18 @@
+{
+    "name": "alcau/php-course-basic",
+    "description": "php-basic-course",
+    "type": "project",
+    "license": "meet",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
